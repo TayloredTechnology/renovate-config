@@ -2,7 +2,7 @@
   "name": "@tayloredtechnology/renovate-config",
   "description": "Taylored Technology configuration settings for Renovate",
   "homepage": "https://github.com/TayloredTechnology/renovate-config#readme",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": {
     "email": "TayloredTechnology@protonmail.ch",
     "name": "Taylored Technology"
@@ -31,7 +31,9 @@
   },
   "license": "SEE LICENSE IN LICENSE",
   "commitlint": {
-    "extends": ["@commitlint/config-conventional"]
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   },
   "renovate-config": {
     "default": {
