@@ -27,14 +27,11 @@
   "scripts": {
     "commit": "commit",
     "commitmsg": "commitlint -e $GIT_PARAMS",
-    "precommit": "finepack --no-validate package.json; git add package.json",
     "release": "release-it"
   },
   "license": "SEE LICENSE IN LICENSE",
   "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
+    "extends": ["@commitlint/config-conventional"]
   },
   "renovate-config": {
     "default": {
