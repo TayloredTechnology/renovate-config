@@ -1,3 +1,13 @@
+<a name="0.1.1"></a>
+## [0.1.1](https://github.com/TayloredTechnology/renovate-config/compare/0.1.0...0.1.1) (2018-03-15)
+
+
+### Bug Fixes
+
+* **rennovate:** prImmediately enabled as test null will never run ([7d3276a](https://github.com/TayloredTechnology/renovate-config/commit/7d3276a))
+
+
+
 <a name="0.1.0"></a>
 # 0.1.0 (2018-03-14)
 
