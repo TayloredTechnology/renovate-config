@@ -31,9 +31,7 @@
   },
   "license": "SEE LICENSE IN LICENSE",
   "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
+    "extends": ["@commitlint/config-conventional"]
   },
   "renovate-config": {
     "default": {
@@ -49,7 +47,7 @@
         ":pinSkipCi",
         ":prConcurrentLimit20",
         ":prHourlyLimit4",
-        ":prNotPending",
+        ":prImmediately",
         ":rebaseStalePrs",
         ":renovatePrefix",
         ":semanticCommits",
