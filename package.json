@@ -56,7 +56,8 @@
         ":semanticPrefixFixDepsChoreOthers",
         ":separateMajorReleases",
         ":unpublishSafeDisabled",
-        "helpers:disableTypesNodeMajor"
+        "helpers:disableTypesNodeMajor",
+        "baseBranches": ["develop"]
       ]
     }
   },
